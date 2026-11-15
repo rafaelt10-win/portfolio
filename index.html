@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rafael Tulec – student informatyki</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<script>
+document.documentElement.className += ' js';
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="hero reveal">
+    <div>
+      <h1>Rafael<br>Tulec</h1>
+      <p class="rola">Student informatyki</p>
+    </div>
+    <p class="opis">Jestem studentem trzeciego semestru informatyki. Od zawsze interesuje mnie tworzenie stron internetowych i rozwijanie samego siebie, a do tego ciekawią mnie analiza danych, sztuczna inteligencja i uczenie maszynowe. Jestem otwarty na naukę i chętnie podejmuję dodatkowe wyzwania.</p>
+  </header>
+
+  <section class="panel">
+    <h2 class="reveal">Umiejętności</h2>
+    <dl class="lista">
+      <div class="reveal"><dt>Strony i CMS</dt><dd>HTML, CSS, JavaScript, WordPress</dd></div>
+      <div class="reveal"><dt>Programowanie</dt><dd>Python, Java</dd></div>
+      <div class="reveal"><dt>Bazy danych i narzędzia biurowe</dt><dd>Microsoft Excel</dd></div>
+    </dl>
+  </section>
+
+  <section class="panel">
+    <h2 class="reveal">Czym się interesuję</h2>
+    <dl class="lista">
+      <div class="reveal"><dt>Strony internetowe</dt><dd>Chcę budować strony, które dobrze wyglądają i działają na każdym ekranie.</dd></div>
+      <div class="reveal"><dt>Analiza danych</dt><dd>Interesuje mnie wyciąganie wniosków z danych i pokazywanie ich na wykresach.</dd></div>
+      <div class="reveal"><dt>AI i uczenie maszynowe</dt><dd>Poznaję, jak działają modele, które uczą się na danych.</dd></div>
+    </dl>
+  </section>
+
+  <section class="panel reveal">
+    <h2>Podstawowy JavaScript</h2>
+    <p>Wylosowałem liczbę od 1 do 100. Spróbuj ją zgadnąć.</p>
+    <form id="gra">
+      <input id="liczba" type="number" min="1" max="100" inputmode="numeric" aria-label="Twoja liczba">
+      <button type="submit">Sprawdź</button>
+      <button type="button" id="nowa">Nowa gra</button>
+    </form>
+    <div id="wynik" aria-live="polite"></div>
+  </section>
+
+  <section class="panel reveal szeroki">
+    <h2>Kontakt</h2>
+    <ul class="kontakt">
+      <li><a class="btn" href="mailto:rafaelt10@interia.pl">rafaelt10@interia.pl</a></li>
+      <li><a class="btn" href="https://github.com/rafaelt10-win">GitHub</a></li>
+    </ul>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
